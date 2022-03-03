@@ -1,5 +1,8 @@
 import React from "react";
 import styled from "styled-components";
+import LeftSide from "./LeftSide";
+import RightSide from "./RightSide";
+import Main from "./Main";
 
 const Home = () => {
   return (
@@ -14,9 +17,9 @@ const Home = () => {
         </p>
       </Section>
       <Layout>
-        <div>Left</div>
-        <div>mid</div>
-        <div>Right</div>
+        <LeftSide />
+        <Main />
+        <RightSide />
       </Layout>
     </Container>
   );
